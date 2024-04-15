@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.container {
+    margin-top: 200px;
+    margin-bottom: 150px;
+    font-size: x-large;
+    display: flex;
+    justify-content: space-around;
+}
+
+.columncontainer {
+    display: flex;
+    align-items: center;
+}
+
+.firsttext,
+.secondtext,
+.thirdtext {
+    text-align: center;
+    margin-bottom: 300px;
+    max-width: 650px;
+    font-family: 'Pacifico', cursive;
+}
+
+.imageone,
+.imagetwo,
+.imagethree {
+    width: 250px;
+    border-radius: 50%;
+    margin-bottom: 200px;
+}

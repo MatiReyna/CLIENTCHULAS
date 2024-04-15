@@ -1,0 +1,3 @@
+export const firstText = 'La Formula 1 donde la velocidad y la precisión se fusionan en un baile de ingenieria y destreza al volante 🏎️ 🤙🏼';
+export const secondText = 'La Formula 1 un escenario donde la pasión por la velocidad y la búsqueda constante de la perfección dan vida a emocionantes carreras llenas de adrenalina';
+export const thirdText = 'La Formula 1 donde la velocidad desafía los límites y los pilotos se convierten en leyendas del asfalto';
