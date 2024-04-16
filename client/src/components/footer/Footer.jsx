@@ -3,12 +3,14 @@ import { Link } from 'react-router-dom';
 
 import { FAQ, changePolicies, contact, callPhone, email, dayOperation, day } from './utils/constant';
 
+import style from './Footer.module.css';
+
 const Footer = () => {
 
     return (
-        <div>
+        <div className={style.footerContainer}>
             <div>
-                <img src='/logo-pagina.png' alt='logoFooter' />
+                <img src='/logo-pagina.png' alt='logoFooter' className={style.logoFooter} />
             </div>
             <div>
                 <Link to={'/faq'}>
