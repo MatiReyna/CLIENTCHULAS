@@ -1,24 +1,26 @@
 import { Flex } from 'antd';
-import { Link } from 'react-router-dom';
+import { useLocation, Link } from 'react-router-dom';
 
 // Importamos los estilos.
 import style from './NavBar.module.css';
 
 const NavBar = () => {
 
+    const { pathname } = useLocation();
+
     return (
         <div>
             <nav>
                 <Flex gap='large' wrap='wrap'>
                     <ul className={style.container}>
-                        <li>
+                        <li className={pathname === '/' ? style.active : ''}>
                             <Link to='/'>HOME</Link>
                         </li>
                         <li>
                             <Link to='/calendar'>TURNERO</Link>
                         </li>
                         <li>
-                            <Link to='/about'>PROPÓSITO</Link>
+                            <Link to='/about'>SOBRE MI</Link>
                         </li>
                     </ul>
                 </Flex>
