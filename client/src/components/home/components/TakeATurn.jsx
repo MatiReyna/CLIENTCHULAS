@@ -10,40 +10,42 @@ const TakeATurn = () => {
 
     return (
         <div className={style.container}>
-            <div>TE MOSTRAMOS LOS PASOS A SEGUIR PARA QUE PUEDAS SACAR UN TURNO 🤙🏼</div>
+            <div className={style.title}>
+                ¡Sigue estos simples pasos para sacar un turno!
+            </div>
 
-            <div>
-                <div>
+            <div className={style.stepsContainer}>
+                <div className={style.step}>
                     <Avatar
-                        style={{ backgroundColor: '#28445c' }}
+                        className={style.icon}
                         size={70}
                         icon={ <CalendarOutlined /> }
                     />
-                    <p>BUSCÁ EL DÍA Y HORA EN EL TURNERO</p>
+                    <p>Busca el día y hora en el turnero</p>
                 </div>
-                <div>
+                <div className={style.step}>
                     <Avatar
-                        style={{ backgroundColor: '#28445c' }}
+                        className={style.icon}
                         size={70}
                         icon={ <CarryOutOutlined /> }
                     />
-                    <p>SELECCIONA EL QUE MÁS TE CONVENGA</p>
+                    <p>Selecciona el que más te convenga</p>
                 </div>
-                <div>
+                <div className={style.step}>
                     <Avatar
-                        style={{ backgroundColor: '#28445c' }}
+                        className={style.icon}
                         size={70}
                         icon={ <ClockCircleOutlined /> }
                     />
-                    <p>AGUARDA QUE TE CONFIRMEN EL TURNO...</p>
+                    <p>Aguarda que te confirmen el turno...</p>
                 </div>
-                <div>
+                <div className={style.step}>
                     <Avatar
-                        style={{ backgroundColor: '#28445c' }}
+                        className={style.icon}
                         size={70}
                         icon={ <LikeOutlined /> }
                     />
-                    <p>LISTO, DISFRUTA DE TUS NUEVAS UÑAS</p>
+                    <p>¡Listo, disfruta de tus nuevas uñas!</p>
                 </div>
             </div>
         </div>
