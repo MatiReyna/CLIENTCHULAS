@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
-.container {
+.container { /* Estilos generales del contenedor. */
     display: flex;
     flex-direction: column;
     height: 300px;
@@ -17,7 +17,7 @@
 
 .container > div:first-child {
     margin-bottom: 60px;
-    font-weight: 800px;
+    font-weight: 800;
 }
 
 .container > div:last-child {
@@ -32,5 +32,5 @@
     justify-content: space-around;
     width: 25%;
     margin: 20px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
 }

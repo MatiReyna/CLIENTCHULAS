@@ -8,6 +8,11 @@ const Header = () => {
 
     return (
         <div className={style.headercontainer}>
+            <div>
+                <a href='/'>
+                    <img src='logo-pagina.png' alt='logo' className={style.logo} />
+                </a>
+            </div>
             <div className={style.navbar}>
                 <NavBar />
             </div>

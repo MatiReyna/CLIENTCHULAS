@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Importamos los iconos de 'antd'.
-import { CalendarOutlined, CarryOutOutlined, LoadingOutlined, LikeOutlined } from '@ant-design/icons';
+import { CalendarOutlined, CarryOutOutlined, ClockCircleOutlined, LikeOutlined } from '@ant-design/icons';
 import { Avatar } from 'antd';
 
 import style from './TakeATurn.module.css';
@@ -33,7 +33,7 @@ const TakeATurn = () => {
                     <Avatar
                         style={{ backgroundColor: '#28445c' }}
                         size={70}
-                        icon={ <LoadingOutlined /> }
+                        icon={ <ClockCircleOutlined /> }
                     />
                     <p>AGUARDA QUE TE CONFIRMEN EL TURNO...</p>
                 </div>
@@ -43,8 +43,8 @@ const TakeATurn = () => {
                         size={70}
                         icon={ <LikeOutlined /> }
                     />
+                    <p>LISTO, DISFRUTA DE TUS NUEVAS UÑAS</p>
                 </div>
-                <p>LISTO, DISFRUTA DE TUS NUEVAS UÑAS</p>
             </div>
         </div>
     )
