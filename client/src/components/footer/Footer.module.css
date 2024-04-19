@@ -1,20 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
 .footerContainer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #2D4056;
-    padding: 10px;
+    font-family: 'DM Sans', sans-serif;
+    background-color: #fdfbf6;
+    padding: 20px;
     width: auto;
     min-height: 220px;
-    margin-top: 170px;
+    margin-top: 140px;
     margin-left: -10px;
     margin-right: -10px;
-    border-radius: 20px;
-    color: #e2dcd1;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .logoFooter {
     width: 250px;
     height: 250px;
     margin-left: 50px;
+}
+
+.footerContainer a {
+    text-decoration: none;
+    color: #242422; /* Color para los enlaces */
+    font-weight: bold; /* Añadir negrita a los enlaces */
+}
+
+.footerContainer p {
+    font-size: 14px;
+    color: #242422;
+    margin: 5px 0; /* Añadir un pequeño margen vertical entre los párrafos */
+}
+
+.icon {
+    font-size: 40px;
+    color: #242422;
+    background-color: #fdfbf6;  /* Color de fondo del icono */
+    transition: transform 0.3s ease;  /* Transición para el efecto hover */
+}
+
+.icon:hover {
+    transform: translateY(-5px); /* Efecto de levantamiento al pasar el mouse */
 }
