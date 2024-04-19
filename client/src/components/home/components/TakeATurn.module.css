@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
 .container {
-    display: flex;
-    flex-direction: column;
+    display: flex;  /* Alinear los elementos internos */
+    flex-direction: column;  /* Los elementos hijos se colocan en una columna */
     height: auto;
-    background-color: #fdfbf6;
+    background-color: #fdfbf6;  /* Color de fondo */
     border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;  /* Espacio interno */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);  /* Sombra */
     text-align: center;
     font-family: 'DM Sans', sans-serif;
     cursor: pointer;
@@ -15,14 +15,14 @@
 
 .title {
     margin-bottom: 30px;
-    font-weight: 600;
-    font-size: 24px;
-    color: #242422;
+    font-weight: 600;  /* Grosor de la fuente */
+    font-size: 24px;  /* Tamaño de la fuente */
+    color: #242422;  /* Color del texto */
 }
 
 .stepsContainer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;  /* Distribuye el espacio entre los elementos hijos */
 }
 
 .step {
@@ -30,14 +30,14 @@
     flex-direction: column;
     align-items: center;
     margin: 20px;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease;  /* Transición para el efecto hover */
 }
 
 .icon {
-    font-size: 40px;
+    font-size: 40px;  /* Tamaño del icono */
     margin-bottom: 10px;
-    color: #242422;
-    background-color: #fdfbf6;
+    color: #242422;  /* Color del icono */
+    background-color: #fdfbf6;  /* Color de fondo del icono */
 }
 
 .step p {

@@ -1,10 +1,8 @@
 import React from 'react';
-
-// Importamos los iconos de 'antd'.
-import { CalendarOutlined, CarryOutOutlined, ClockCircleOutlined, LikeOutlined } from '@ant-design/icons';
+import { CalendarOutlined, CarryOutOutlined, ClockCircleOutlined, LikeOutlined } from '@ant-design/icons';  // Importamos los iconos necesarios.
 import { Avatar } from 'antd';
 
-import style from './TakeATurn.module.css';
+import style from './TakeATurn.module.css';  //? Importamos los estilos del componente.
 
 const TakeATurn = () => {
 
@@ -52,4 +50,6 @@ const TakeATurn = () => {
     )
 };
 
-export default TakeATurn
+export default TakeATurn;
+
+//TODO: Este componente es el encargado de mostrar la explicación de como sacar un turno de manera simple y corta.
