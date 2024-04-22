@@ -30,7 +30,7 @@ const Footer = () => {
                 <p>{day}</p>
                 <p>¡Gracias por visitarnos!</p>
             </div>
-            <p>Seguinos</p>
+            
             <a
                 href='https://www.instagram.com/misschulas/?igsh=MXRzOTFmMm9qNXhyeQ%3D%3D'
                 target='_blank'
@@ -42,6 +42,7 @@ const Footer = () => {
                     icon={ <InstagramOutlined /> }
                 />
             </a>
+            <p>Seguinos para enterarte de todo</p>
         </div>
     )
 };
