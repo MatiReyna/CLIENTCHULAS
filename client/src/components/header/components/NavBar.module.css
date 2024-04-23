@@ -1,13 +1,23 @@
-@import url('https://fonts.cdnfonts.com/css/montserrat');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
 .container {
-    font-family: 'Montserrat', sans-serif;
-    list-style: none;
+    font-family: 'DM Sans', sans-serif;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 0;
     margin: 0;
 }
 
 .container li {
-    display: inline-block;
-    margin-right: 20px;
+    margin: 0 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #242422;
+}
+
+.active {
+    font-weight: bold;
+    color: #fdfbf6;
 }

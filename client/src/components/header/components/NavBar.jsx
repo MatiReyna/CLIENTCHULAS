@@ -1,8 +1,8 @@
+import React from 'react';
 import { Flex } from 'antd';
 import { useLocation, Link } from 'react-router-dom';
 
-// Importamos los estilos.
-import style from './NavBar.module.css';
+import style from './NavBar.module.css';  //? Importamos los estilos del componente.
 
 const NavBar = () => {
 

@@ -5,7 +5,7 @@ import { FAQ, changePolicies, contact, callPhone, email, dayOperation, day } fro
 import { InstagramOutlined } from '@ant-design/icons';
 import { Avatar } from 'antd';
 
-import style from './Footer.module.css';
+import style from './Footer.module.css';  //? Importamos los estilos del componente.
 
 const Footer = () => {
 
