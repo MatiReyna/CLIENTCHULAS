@@ -1,17 +1,17 @@
-// Importacion de los componentes.
+import React from 'react';
+import { Link } from 'react-router-dom';
 import NavBar from '../components/NavBar';
 
-// Importamos los estilos del componente.
-import style from './Header.module.css';
+import style from './Header.module.css';  //? Importamos los estilos del componente.
 
 const Header = () => {
 
     return (
         <div className={style.headercontainer}>
             <div>
-                <a href='/'>
-                    <img src='logo-pagina.png' alt='logo' className={style.logo} />
-                </a>
+                <Link to='/'>
+                    <img src='logo-pagina.png' alt='logoHeader' className={style.logo} />
+                </Link>
             </div>
             <div className={style.navbar}>
                 <NavBar />
