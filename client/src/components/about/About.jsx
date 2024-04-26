@@ -1,8 +1,7 @@
-// Importamos las constantes que contiene los textos.
+import React from 'react';
 import { firstText, secondText, thirdText } from './utils/constant';
 
-// Importamos los estilos.
-import style from './About.module.css';
+import style from './About.module.css';  //? Importamos los estilos del componente.
 
 const About = () => {
 
@@ -11,17 +10,17 @@ const About = () => {
             <div className={style.columncontainer}>
                 <div>
                     <p className={style.firsttext}>{firstText}</p>
-                    <img src='/about-one.jpeg' alt='about-one' className={style.imageone} />
+                    <img src='/about-one.webp' alt='about-one' className={style.imageone} />
                     <p className={style.secondtext}>{secondText}</p>
                 </div>
                 <div>
-                    <img src='/about-two.jpeg' alt='about-two' className={style.imagetwo} />
+                    <img src='/about-mica.webp' alt='about-mica' className={style.imagetwo} />
                     <p className={style.thirdtext}>{thirdText}</p>
-                    <img src='/about-three.jpeg' alt='about-three' className={style.imagethree} />
+                    <img src='/about-moro.webp' alt='about-moro' className={style.imagethree} />
                 </div>
             </div>
         </div>
     )
 };
 
-export default About
+export default About;

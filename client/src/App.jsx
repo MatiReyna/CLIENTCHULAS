@@ -1,3 +1,4 @@
+import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 
 // Importacion de los componentes.
@@ -11,9 +12,6 @@ const App = () => {
 
   return (
     <div>
-      <p className="read-the-docs">
-        El proyecto esta levantado correctamente.
-      </p>
       <Header />
       <Routes>
         <Route path='/' element={ <Home /> } />
@@ -24,4 +22,4 @@ const App = () => {
   )
 };
 
-export default App
+export default App;
