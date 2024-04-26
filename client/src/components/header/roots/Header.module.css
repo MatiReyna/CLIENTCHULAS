@@ -13,22 +13,10 @@
 }
 
 .logo {
-    width: 200px;
+    width: 150px;
     height: auto;
 }
 
 .navbar {
     margin-left: auto;
-}
-
-.navbar Link {
-    margin: 0 10px;
-    font-size: 16px;
-    font-weight: bold;
-    color: #242422;
-    text-decoration: none;
-}
-
-.navbar Link.active {
-    color: #333333;
 }

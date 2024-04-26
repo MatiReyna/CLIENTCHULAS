@@ -10,7 +10,7 @@ const Header = () => {
         <div className={style.headercontainer}>
             <div>
                 <Link to='/'>
-                    <img src='logo-pagina.png' alt='logoHeader' className={style.logo} />
+                    <img src='logo-pagina.webp' alt='logoHeader' className={style.logo} />
                 </Link>
             </div>
             <div className={style.navbar}>
@@ -20,4 +20,4 @@ const Header = () => {
     )
 };
 
-export default Header
+export default Header;
