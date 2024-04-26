@@ -12,12 +12,17 @@
 
 .container li {
     margin: 0 20px;
-    font-size: 14px;
-    font-weight: bold;
-    color: #242422;
+    font-size: 16px;
+    font-weight: 500;
 }
 
-.active {
-    font-weight: bold;
-    color: #fdfbf6;
+.container li a {
+    text-decoration: none;
+    color: #242422;
+    transition: color 0.3s;
+}
+
+.active a {
+    font-weight: 700;
+    color: #333333 !important;
 }
