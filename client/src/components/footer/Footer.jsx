@@ -12,7 +12,7 @@ const Footer = () => {
     return (
         <div className={style.footerContainer}>
             <div>
-                <img src='/logo-pagina.png' alt='logoFooter' className={style.logoFooter} />
+                <img src='/logo-pagina.webp' alt='logoFooter' className={style.logoFooter} />
             </div>
             <div>
                 <Link to={'/faq'}>
@@ -47,4 +47,4 @@ const Footer = () => {
     )
 };
 
-export default Footer
+export default Footer;
