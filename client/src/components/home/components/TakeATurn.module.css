@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
 .container {
+    margin-top: 150px;
     display: flex;  /* Alinear los elementos internos */
     flex-direction: column;  /* Los elementos hijos se colocan en una columna */
     height: auto;
