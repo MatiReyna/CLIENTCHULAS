@@ -2,9 +2,16 @@ import React from 'react';
 import { useState } from  'react';
 import { accordion } from '../utils/accordion';
 
+import style from './Carousel.module.css';  //? Importamos los estilos del componente.
+
 const Carousel = () => {
 
     const [ active, setActive ] = useState(0);
+    const [ expanded, setExpanded ] = useState(false);
+
+    const handleImageClick = () => {
+        setExpanded(!expanded)
+    };
 
     return (
         <div>
@@ -13,12 +20,11 @@ const Carousel = () => {
                     accordion.map((card, index) => (
                         <article
                             key={card.image}
-                            className={active === index ? 'active' : ''}
+                            className={`${style.card} ${active === index ? style.active : ''} ${expanded ? style.expanded : ''}`}
                             onClick={() => setActive(index)}
                         >
-                            <img src={card.image} />
-                            <div className={content}>
-                                <span>photo_camera</span>
+                            <img src={card.image} alt={card.header} onClick={handleImageClick} />
+                            <div className={style.content}>
                                 <div>
                                     <h2>{card.header}</h2>
                                     <p>{card.text}</p>
