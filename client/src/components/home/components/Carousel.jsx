@@ -1,5 +1,5 @@
 import React from 'react';
-import { useState } from  'react';
+import { useState, useEffect } from  'react';
 import { accordion } from '../utils/accordion';
 
 import style from './Carousel.module.css';  //? Importamos los estilos del componente.
@@ -9,7 +9,16 @@ const Carousel = () => {
     const [ active, setActive ] = useState(0);
     const [ expanded, setExpanded ] = useState(false);
 
+    useEffect(() => {  // Funcion para que cambia la imagen automaticamente del Carousel.
+        const interval = setInterval(() => {
+            setActive(active => (active + 1) % accordion.length)
+        }, 5000)  // Cambia cada tres segundos la imagen.
+
+        return () => clearInterval(interval)
+    }, []);
+
     const handleImageClick = () => {
+        clearInterval(interval)  // Detiene el cambio automatico cuando se le hace click.
         setExpanded(!expanded)
     };
 
