@@ -8,11 +8,6 @@ const Header = () => {
 
     return (
         <div className={style.headercontainer}>
-            <div>
-                <Link to='/'>
-                    <img src='logo-pagina.webp' alt='logoHeader' className={style.logo} />
-                </Link>
-            </div>
             <div className={style.navbar}>
                 <NavBar />
             </div>

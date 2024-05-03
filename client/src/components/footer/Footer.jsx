@@ -30,7 +30,7 @@ const Footer = () => {
                 <p>{day}</p>
                 <p>¡Gracias por visitarnos!</p>
             </div>
-            
+
             <a
                 href='https://www.instagram.com/misschulas/?igsh=MXRzOTFmMm9qNXhyeQ%3D%3D'
                 target='_blank'
@@ -43,7 +43,47 @@ const Footer = () => {
                 />
             </a>
             <p>Seguinos para enterarte de todo</p>
+
+            <div className={style.footerCopyright}>
+                <p>@2024 Miss Chulas, Inc. All rights reserved.</p>
+                <p>Privacy Policy.</p>
+                <p>Terms of Use.</p>
+            </div>
         </div>
+        // <footer className={style.footerContainer}>
+        //     <div className={style.footerWrapper}>
+        //         <div className={style.footerSection}>
+        //             <div className={style.footerSubscribe}>
+        //                 <h2>
+        //                     Subscribe to the Miss Chulas® newslatter to say
+        //                     up-to-date with the latest releases.
+        //                 </h2>
+        //                 <div className={style.box}>
+        //                     <input type='email' placeholder='Email Address' />
+        //                     <button>💖</button>
+        //                 </div>
+        //             </div>
+        //         </div>
+        //         <nav className={style.footerNav}>
+        //             <div>
+        //                 <h3>Company</h3>
+        //                 <ul>
+        //                     <li><a>About</a></li>
+        //                     <li><a>Blog</a></li>
+        //                     <li><a>Contact Us</a></li>
+        //                 </ul>
+        //             </div>
+        //             <div>
+        //                 <h3>Connect</h3>
+        //             </div>
+        //         </nav>
+        //         <div className={style.footerCopyright}>
+        //             <p>©2024 Miss Chulas, Inc. All rights reserved.</p>
+        //             <p>Privacy Policy.</p>
+        //             <p>Terms of Use.</p>
+        //         </div>
+        //     </div>
+        // </footer>
     )
 };
 
