@@ -7,8 +7,8 @@ import style from './Header.module.css';  //? Importamos los estilos del compone
 const Header = () => {
 
     return (
-        <div className={style.headercontainer}>
-            <div className={style.navbar}>
+        <div>
+            <div>
                 <NavBar />
             </div>
         </div>
