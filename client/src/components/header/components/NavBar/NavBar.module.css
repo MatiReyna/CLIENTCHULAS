@@ -45,6 +45,11 @@
     outline: 0;
 }
 
+.darkNavbar {
+    background: #212121;
+    transition: 0.5s;
+}
+
 /* .search {
     display: flex;
     align-items: center;

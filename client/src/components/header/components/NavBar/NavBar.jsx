@@ -1,6 +1,6 @@
 import React from 'react';
 import { useLocation, Link } from 'react-router-dom';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { MenuOutlined, CloseOutlined } from '@ant-design/icons';
 
 import style from './NavBar.module.css';  //? Importamos los estilos del componente.
@@ -8,11 +8,13 @@ import style from './NavBar.module.css';  //? Importamos los estilos del compone
 const NavBar = () => {
 
     const { pathname } = useLocation();  // Aca saco donde esta parado el usuario.
-    const [ isMenuOpen, setIsMenuOpen ] = useState(false);
+    const [ sticky, setSticky ] = useState(false);
 
-    const toggleMenu = () => {
-        setIsMenuOpen(!isMenuOpen)
-    };
+    useEffect(() => {
+        window.addEventListener('scroll', () => {
+            window.scrollY > 50 ? setSticky(true) : setSticky(false);
+        })
+    }, []);
 
     return (
         // <div className={style.navbarContainer}>
@@ -41,7 +43,7 @@ const NavBar = () => {
         //         <input type='text' placeholder='Search' />
         //     </div>
         // </div>
-        <nav className={style.navbarContainer}>
+        <nav className={`${style.navbarContainer} ${sticky ? style.darkNavbar : ''}`}>
             <img src='logo-pagina.webp' alt='logoHeader' className={style.logo} />
             <ul>
                 <li>Home</li>
