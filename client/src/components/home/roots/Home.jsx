@@ -8,9 +8,9 @@ const Home = () => {
 
     return (
         <div>
-            <div>
+            {/* <div>
                 <Carousel />
-            </div>
+            </div> */}
             <div>
                 <TakeATurn />
             </div>

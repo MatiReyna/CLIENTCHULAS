@@ -53,15 +53,47 @@ const TakeATurn = () => {
         <div className={style.takeaturnContainer}>
             <div className={style.seleccion}>
                 <img src={buscar} alt='buscar' />
+                <div className={style.caption}>
+                    <Avatar
+                        className={style.icon}
+                        size={70}
+                        icon={ <CalendarOutlined /> }
+                    />
+                    <p>Busca el día y hora en el turnero</p>
+                </div>
             </div>
             <div className={style.seleccion}>
-                <img src={seleccionar} alt='buscar' />
+                <img src={seleccionar} alt='seleccionar' />
+                <div className={style.caption}>
+                    <Avatar
+                        className={style.icon}
+                        size={70}
+                        icon={ <CarryOutOutlined /> }
+                    />
+                    <p>Selecciona el que más te convenga</p>
+                </div>
             </div>
             <div className={style.seleccion}>
-                <img src={esperar} alt='buscar' />
+                <img src={esperar} alt='esperar' />
+                <div className={style.caption}>
+                    <Avatar
+                        className={style.icon}
+                        size={70}
+                        icon={ <ClockCircleOutlined /> }
+                    />
+                    <p>Aguarda que te confirmen el turno...</p>
+                </div>
             </div>
             <div className={style.seleccion}>
-                <img src='./about-moro.webp' alt='buscar' />
+                <img src='./about-moro.webp' alt='disfruta' />
+                <div className={style.caption}>
+                    <Avatar
+                        className={style.icon}
+                        size={70}
+                        icon={ <LikeOutlined /> }
+                    />
+                    <p>¡Listo, disfruta de tus nuevas uñas!</p>
+                </div>
             </div>
         </div>
     )
