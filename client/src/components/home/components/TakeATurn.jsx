@@ -10,53 +10,13 @@ import esperar from '../utils/esperar.webp';
 const TakeATurn = () => {
 
     return (
-        // <div className={style.container}>
-        //     <div className={style.title}>
-        //         ¡Sigue estos simples pasos para sacar un turno!
-        //     </div>
-
-        //     <div className={style.stepsContainer}>
-        //         <div className={style.step}>
-        //             <Avatar
-        //                 className={style.icon}
-        //                 size={70}
-        //                 icon={ <CalendarOutlined /> }
-        //             />
-        //             <p>Busca el día y hora en el turnero</p>
-        //         </div>
-        //         <div className={style.step}>
-        //             <Avatar
-        //                 className={style.icon}
-        //                 size={70}
-        //                 icon={ <CarryOutOutlined /> }
-        //             />
-        //             <p>Selecciona el que más te convenga</p>
-        //         </div>
-        //         <div className={style.step}>
-        //             <Avatar
-        //                 className={style.icon}
-        //                 size={70}
-        //                 icon={ <ClockCircleOutlined /> }
-        //             />
-        //             <p>Aguarda que te confirmen el turno...</p>
-        //         </div>
-        //         <div className={style.step}>
-        //             <Avatar
-        //                 className={style.icon}
-        //                 size={70}
-        //                 icon={ <LikeOutlined /> }
-        //             />
-        //             <p>¡Listo, disfruta de tus nuevas uñas!</p>
-        //         </div>
-        //     </div>
-        // </div>
         <div className={style.takeaturnContainer}>
             <div className={style.seleccion}>
                 <img src={buscar} alt='buscar' />
                 <div className={style.caption}>
                     <Avatar
                         className={style.icon}
-                        size={70}
+                        size={140}
                         icon={ <CalendarOutlined /> }
                     />
                     <p>Busca el día y hora en el turnero</p>
@@ -67,7 +27,7 @@ const TakeATurn = () => {
                 <div className={style.caption}>
                     <Avatar
                         className={style.icon}
-                        size={70}
+                        size={140}
                         icon={ <CarryOutOutlined /> }
                     />
                     <p>Selecciona el que más te convenga</p>
@@ -78,7 +38,7 @@ const TakeATurn = () => {
                 <div className={style.caption}>
                     <Avatar
                         className={style.icon}
-                        size={70}
+                        size={140}
                         icon={ <ClockCircleOutlined /> }
                     />
                     <p>Aguarda que te confirmen el turno...</p>
@@ -89,7 +49,7 @@ const TakeATurn = () => {
                 <div className={style.caption}>
                     <Avatar
                         className={style.icon}
-                        size={70}
+                        size={140}
                         icon={ <LikeOutlined /> }
                     />
                     <p>¡Listo, disfruta de tus nuevas uñas!</p>

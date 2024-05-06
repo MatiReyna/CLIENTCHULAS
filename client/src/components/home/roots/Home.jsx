@@ -3,6 +3,7 @@ import React from 'react';
 // Importamos componentes.
 import TakeATurn from '../components/TakeATurn';
 import Carousel from '../components/Carousel';
+import Title from '../title/Title';
 
 const Home = () => {
 
@@ -12,6 +13,7 @@ const Home = () => {
                 <Carousel />
             </div> */}
             <div>
+                <Title subTitle='Hola' title='Hola, Hola' />
                 <TakeATurn />
             </div>
         </div>
