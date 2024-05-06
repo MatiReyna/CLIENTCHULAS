@@ -1,52 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
-.container {
+/* .container {
     margin-top: 150px;
-    display: flex;  /* Alinear los elementos internos */
-    flex-direction: column;  /* Los elementos hijos se colocan en una columna */
+    display: flex; 
+    flex-direction: column;
     height: auto;
-    background-color: #fdfbf6;  /* Color de fondo */
+    background-color: #fdfbf6; 
     border-radius: 10px;
-    padding: 20px;  /* Espacio interno */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);  /* Sombra */
+    padding: 20px; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
     font-family: 'DM Sans', sans-serif;
     cursor: pointer;
-}
+} */
 
-.title {
+/* .title {
     margin-bottom: 30px;
-    font-weight: 600;  /* Grosor de la fuente */
-    font-size: 24px;  /* Tamaño de la fuente */
-    color: #242422;  /* Color del texto */
-}
+    font-weight: 600; 
+    font-size: 24px;
+    color: #242422; 
+} */
 
-.stepsContainer {
+/* .stepsContainer {
     display: flex;
-    justify-content: space-between;  /* Distribuye el espacio entre los elementos hijos */
-}
+    justify-content: space-between; 
+} */
 
-.step {
+/* .step {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 20px;
-    transition: transform 0.3s ease;  /* Transición para el efecto hover */
-}
+    transition: transform 0.3s ease;
+} */
 
-.icon {
-    font-size: 40px;  /* Tamaño del icono */
+/* .icon {
+    font-size: 40px; 
     margin-bottom: 10px;
-    color: #242422;  /* Color del icono */
-    background-color: #fdfbf6;  /* Color de fondo del icono */
-}
+    color: #242422;  
+    background-color: #fdfbf6; 
+} */
 
-.step p {
+/* .step p {
     font-size: 16px;
     color: #242422;
     margin-top: 10px;
-}
+} */
 
-.step:hover {
-    transform: translateY(-5px); /* Efecto de levantamiento al pasar el mouse */
-}
+/* .step:hover {
+    transform: translateY(-5px);
+} */
