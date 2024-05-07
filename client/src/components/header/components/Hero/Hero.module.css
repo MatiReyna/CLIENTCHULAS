@@ -40,6 +40,12 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btnHero:hover {
+    background: #ff9f1c;
+    color: #fff;
 }
 
 .iconHero {

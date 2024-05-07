@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
-
 .navbarContainer {
     width: 100%;
     /* background: #333; */
@@ -34,6 +32,10 @@
     cursor: pointer;
 }
 
+.navbarContainer ul li:hover {
+    color: #ff9f1c;
+}
+
 .btnContact {
     background: #fff;
     color: #212121;
@@ -45,41 +47,16 @@
     outline: 0;
 }
 
-.darkNavbar {
-    background: #212121;
-    transition: 0.5s;
+.btnContact:hover {
+    transform: scale(1.05);  /* Escala el botón al 105% de su tamaño original */
 }
 
-/* .search {
-    display: flex;
-    align-items: center;
-    background: #242424;
-    padding: 10px;
-    border-radius: 50px;
-} */
+.darkNavbar {
+    background: #8a817c;
+    transition: background 0.5s;
+}
 
-/* .search input {
-    padding: 5px;
-    background: transparent;
-    border: 0;
-    outline: 0;
-    color: #fdfbf6;
-    font-size: 16px;
-    max-width: 210px;
-} */
-
-/* .search input::placeholder {
-    color: #fdfbf6;
-    font-family: 'DM Sans', sans-serif;
-} */
-
-/* .navbarContainer li a {
-    text-decoration: none;
-    color: #242422;
-    transition: color 0.3s;
-} */
-
-/* .navbarContainer li.active a {
+.navbarContainer li.active a {
     font-weight: 600;
-    color: #333333 !important;
-} */
+    color: #ff9f1c !important;
+}

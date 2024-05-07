@@ -1,7 +1,7 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 
-// Importacion de los componentes.
+//TODO: Importacion de los componentes.
 import NavBar from './components/header/components/NavBar/NavBar';
 import Hero from './components/header/components/Hero/Hero';
 import Home from './components/home/roots/Home';
