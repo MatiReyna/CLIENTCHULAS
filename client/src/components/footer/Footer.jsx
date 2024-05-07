@@ -65,10 +65,10 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div>
-                    <div>
+                <div className={style.footerContent}>
+                    <div className={style.footerMain}>
                         <h2>Vee Teach</h2>
-                        <p>Distinctio, architecto perferendis corrupti deleniti, cum assumenda, accusantium neque illum nobis ipsa necessitatibus dolores itaque?.</p>
+                        <p>Distinctio necessitatibus dolores itaque?.</p>
                         <div>
                             <a herf='#'><i></i></a>
                             <a herf='#'><i></i></a>
@@ -77,19 +77,19 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div>
+                <div className={style.links}>
                     <p>Information</p>
                     <a>Our Company</a>
                     <a>About Us</a>
                     <a>Blog</a>
                 </div>
-                <div>
+                <div className={style.links}>
                     <p>Helpful Links</p>
                     <a>Service</a>
                     <a>Support</a>
                     <a>Terms & Condition</a>
                 </div>
-                <div>
+                <div className={style.links}>
                     <p>Navegation</p>
                     <a>Home</a>
                     <a>About</a>
