@@ -9,12 +9,11 @@ const Home = () => {
 
     return (
         <div>
-            {/* <div>
-                <Carousel />
-            </div> */}
             <div>
                 <Title subTitle='Hola' title='Hola, Hola' />
                 <TakeATurn />
+                <Title subTitle='GALLERY' title='Algunas muestras' />
+                <Carousel />
             </div>
         </div>
     )
