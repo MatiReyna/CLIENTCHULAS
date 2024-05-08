@@ -4,7 +4,7 @@
     background: linear-gradient(rgba(28, 25, 49, 0.7), rgba(28, 25, 49, 0.7)), url('/about-mica.webp');
     background-size: cover;
     background-position: center;
-    color: #fff;
+    color: #fffcf2;
     padding-left: 10%;
     padding-right: 10%;
     display: flex;
@@ -20,16 +20,33 @@
 .heroText h2 {
     font-size: 60px;
     font-weight: 600;
+    opacity: 0;
+    transform: translateY(-50px);
+    animation: fadeInUp 1s forwards;
+}
+
+@keyframes fadeInUp {  /* Esto es parte de la animación de los textos */
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .heroText p {
     max-width: 700px;
     margin: 10px auto 20px;
     line-height: 1.4;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp 1s forwards 0.5s;
 }
 
 .btnHero {
-    background: #fff;
+    background: #fffcf2;
     color: #212121;
     padding: 14px 25px;
     font-size: 16px;
