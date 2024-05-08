@@ -10,9 +10,15 @@ const NavBar = () => {
     const [ sticky, setSticky ] = useState(false);
 
     useEffect(() => {
-        window.addEventListener('scroll', () => {
-            window.scrollY > 430 ? setSticky(true) : setSticky(false);
-        })
+        const handleScroll = () => {
+            const offset = window.innerHeight * 0.9
+            setSticky(window.scrollY > offset)
+        }
+        window.addEventListener('scroll', handleScroll)
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        }
     }, []);
 
     return (
@@ -34,7 +40,7 @@ const NavBar = () => {
                     <Link to='faq'>FAQ</Link>
                 </li>
                 <li>
-                    <button className={style.btnContact}>
+                    <button className={style.btnContact} aria-label='Conatct Us'>
                         Contact Us
                     </button>
                 </li>
