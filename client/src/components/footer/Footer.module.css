@@ -26,7 +26,7 @@
 }
 
 .newslatterLeft h2 {
-    color: #ff9f1c;
+    color: #fffcf2;
     text-transform: uppercase;
     font-size: 1rem;
     opacity: 0.5;
@@ -34,34 +34,43 @@
 }
 
 .newslatterLeft h1 {
-    color: #ffffff;
+    color: #fffcf2;
     text-transform: uppercase;
     font-size: 1.5rem;
 }
 
 .newsletterInput {
-    background-color: #ffffff;
+    background-color: #fffcf2;
     padding: 5px;
     border-radius: 20px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
 }
 
 .newslatterInput input {
     border: none;
     outline: none;
     background: transparent;
-    width: 80%;
     padding-left: 10px;
     font-weight: 600;
+    flex: 1;
+}
+
+.newslatterInput input::placeholder {
+    color: #fffcf2;
 }
 
 .newslatterInput button {
     background-color: #201e1e;
     padding: 9px 15px;
     border-radius: 15px;
-    color: #ffffff;
+    color: #fffcf2;
     cursor: pointer;
+    margin-left: 10px;
+    border: 0;
+    outline: 0;
 }
 
 .newslatterInput button:hover {
@@ -82,14 +91,32 @@
 }
 
 .footerMain h2 {
-    color: #ffffff;
+    color: #fffcf2;
     font-size: 1.6rem;
 }
 
 .footerMain p {
-    color: #ffffff;
+    color: #fffcf2;
     font-size: 0.8rem;
     line-height: 1.3rem;
+}
+
+.linkSocial {
+    margin: 15px;
+    display: flex;
+    gap: 8px;
+}
+
+.linkSocial a {
+    padding: 5px;
+    background-color: #dbd8e3;
+    border-radius: 5px;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.linkSocial a:hover {
+    opacity: 0.7;
 }
 
 .links {
@@ -103,7 +130,7 @@
     font-size: 1.3rem;
     margin-bottom: 15px;
     font-weight: 600;
-    color: #ffffff;
+    color: #fffcf2;
 }
 
 .links a {
@@ -111,7 +138,7 @@
     text-decoration: none;
     margin-bottom: 15px;
     font-weight: 600;
-    color: #dbd8e3;
+    color: #fffcf2;
     transition: 0.5s all;
 }
 

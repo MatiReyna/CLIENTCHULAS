@@ -1,8 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
-import { InstagramOutlined } from '@ant-design/icons';
-import { Avatar } from 'antd';
+import { InstagramOutlined, LinkedinOutlined } from '@ant-design/icons';
 
 import style from './Footer.module.css';  //? Importamos los estilos del componente.
 
@@ -27,9 +25,9 @@ const Footer = () => {
                 <article className={style.footerMain}>
                     <h2>Vee Teach</h2>
                     <p>Distinctio necessitatibus dolores itaque?.</p>
-                    <div>
-                        <a herf='#'><i></i></a>
-                        <a herf='#'><i></i></a>
+                    <div className={style.linkSocial}>
+                        <a herf='#'><InstagramOutlined /></a>
+                        <a herf='#'><LinkedinOutlined /></a>
                         <a herf='#'><i></i></a>
                         <a herf='#'><i></i></a>
                     </div>
