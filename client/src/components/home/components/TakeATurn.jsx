@@ -12,7 +12,7 @@ const TakeATurn = () => {
     return (
         <div className={style.takeaturnContainer}>
             <div className={style.seleccion}>
-                <img src={buscar} alt='buscar' />
+                <img src={buscar} alt='Busca tu turno' />
                 <div className={style.caption}>
                     <Avatar
                         className={style.icon}
@@ -23,7 +23,7 @@ const TakeATurn = () => {
                 </div>
             </div>
             <div className={style.seleccion}>
-                <img src={esperar} alt='esperar' />
+                <img src={esperar} alt='Aguarda la confirmación' />
                 <div className={style.caption}>
                     <Avatar
                         className={style.icon}
@@ -34,7 +34,7 @@ const TakeATurn = () => {
                 </div>
             </div>
             <div className={style.seleccion}>
-                <img src={seleccionar} alt='disfruta' />
+                <img src={seleccionar} alt='Listo, disfruta' />
                 <div className={style.caption}>
                     <Avatar
                         className={style.icon}

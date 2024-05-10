@@ -13,7 +13,7 @@ const Carousel = () => {
                 <img src='/img-three.webp' />
                 <img src='/img-four.webp' />
             </div>
-            <button className={style.btnCarousel}>¡Quiero más! <FireOutlined className={style.iconCarousel} /></button>
+            <button className={style.btnCarousel} aria-label='¡Quiero más!'>¡Quiero más! <FireOutlined className={style.iconCarousel} /></button>
         </div>
     )
 };

@@ -31,6 +31,11 @@
     transition: background-color 0.3s, color 0.3s;
 }
 
+.btnCarousel:hover {
+    background: #ff9f1c;
+    color: #fff;
+}
+
 .iconCarousel {
     width: 20px;
     margin-left: 10px;
