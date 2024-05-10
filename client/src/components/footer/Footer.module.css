@@ -34,7 +34,7 @@
 }
 
 .newslatterLeft h1 {
-    color: #fffcf2;
+    color: #ff9f1c;
     text-transform: uppercase;
     font-size: 1.5rem;
 }
@@ -59,7 +59,7 @@
 }
 
 .newslatterInput input::placeholder {
-    color: #fffcf2;
+    color: #ff9f1c;
 }
 
 .newslatterInput button {
@@ -71,10 +71,14 @@
     margin-left: 10px;
     border: 0;
     outline: 0;
+    transition: transform 0.3s ease-in-out;
 }
 
 .newslatterInput button:hover {
-    background-color: #3a3939;
+    /* background-color: #3a3939; */
+    background: #ff9f1c;
+    color: #fffcf2;
+    transform: scale(1.05);
 }
 
 .footerContent {
@@ -101,6 +105,16 @@
     line-height: 1.3rem;
 }
 
+.logo {
+    width: 75px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
 .linkSocial {
     margin: 15px;
     display: flex;
@@ -109,8 +123,8 @@
 
 .linkSocial a {
     padding: 5px;
-    background-color: #dbd8e3;
-    border-radius: 5px;
+    background-color: #ff9f1c;
+    border-radius: 30px;
     transition: 0.5s;
     text-decoration: none;
 }
@@ -147,7 +161,7 @@
 }
 
 .footerCopyright {
-    margin: 10px auto;
+    margin: 0px auto;
     display: flex;
     align-items: center;
     justify-content: space-between;

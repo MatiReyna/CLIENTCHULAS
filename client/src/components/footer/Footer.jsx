@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { InstagramOutlined, LinkedinOutlined } from '@ant-design/icons';
+import { InstagramOutlined, LinkedinOutlined, PinterestOutlined, TikTokOutlined } from '@ant-design/icons';
 
 import style from './Footer.module.css';  //? Importamos los estilos del componente.
 
@@ -10,26 +10,27 @@ const Footer = () => {
         <footer className={style.footerContainer}>
             <section className={style.newslatterSection}>
                 <div className={style.newslatterLeft}>
-                    <h2>Suscribite to our</h2>
+                    <h2>Subscribe to our</h2>
                     <h1>Newslatter</h1>
                 </div>
                 <div className={style.newslatterRight}>
                     <div className={style.newslatterInput}>
                         <input type='text' placeholder='Enter your email adress' />
-                        <button>Submit</button>
+                        <button aria-label='Submit'>Submit</button>
                     </div>
                 </div>
             </section>
 
             <section className={style.footerContent}>
                 <article className={style.footerMain}>
-                    <h2>Vee Teach</h2>
-                    <p>Distinctio necessitatibus dolores itaque?.</p>
+                    <img src='/logo-pagina.webp' alt='logoFooter' className={style.logo} />
+                    <h2>Miss Chulas</h2>
+                    <p>Trasformando uñitas, seguinos en nuestras redes.</p>
                     <div className={style.linkSocial}>
                         <a herf='#'><InstagramOutlined /></a>
                         <a herf='#'><LinkedinOutlined /></a>
-                        <a herf='#'><i></i></a>
-                        <a herf='#'><i></i></a>
+                        <a herf='#'><PinterestOutlined /></a>
+                        <a herf='#'><TikTokOutlined /></a>
                     </div>
                 </article>
                 <article className={style.links}>
@@ -46,7 +47,9 @@ const Footer = () => {
                 </article>
                 <article className={style.links}>
                     <p>Navegation</p>
-                    <a>Home</a>
+                    <Link to='/'>
+                        <a>Home</a>
+                    </Link>
                     <a>About</a>
                     <a>Contact</a>
                 </article>

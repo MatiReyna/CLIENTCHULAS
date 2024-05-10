@@ -1,6 +1,6 @@
 .titleContainer {
     text-align: center;
-    color: #212EA0;
+    color: #ff9f1c;
     font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
@@ -9,7 +9,7 @@
 
 .titleContainer h2 {
     font-size: 32px;
-    color: #000F38;
+    color: #212121;
     margin-top: 5px;
     text-transform: none;
 }
