@@ -7,6 +7,7 @@ import Title from '../title/Title';
 import TakeATurn from '../components/TakeATurn';
 import About from '../components/About';
 import Carousel from '../components/Carousel';
+import Contact from '../components/Contact';
 
 const Home = () => {
 
@@ -18,6 +19,7 @@ const Home = () => {
                 <About />
                 <Title subTitle='GALLERY' title='Algunas muestras' />
                 <Carousel />
+                {/* <Contact /> */}
             </div>
         </div>
     )
