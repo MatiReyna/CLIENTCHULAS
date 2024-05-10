@@ -50,6 +50,13 @@ const Footer = () => {
                     <a>About</a>
                     <a>Contact</a>
                 </article>
+                <div className={style.footerCopyright}>
+                <p>Copyright © 2024 Miss Culas, Inc.</p>
+                <ul>
+                    <li>Terms of Services</li>
+                    <li>Privacy Police</li>
+                </ul>
+            </div>
             </section>
         </footer>
     )

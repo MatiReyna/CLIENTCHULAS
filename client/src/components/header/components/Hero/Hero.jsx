@@ -20,7 +20,7 @@ const Hero = () => {
                         para pensar en vos y saca un turno</p>
 
                     <Link to='/calendar'>
-                        <button className={style.btnHero}>Saca turno <CalendarOutlined className={style.iconHero} /></button>
+                        <button className={style.btnHero} aria-label='Sacar turno'>Saca turno <CalendarOutlined className={style.iconHero} /></button>
                     </Link>
                 </div>
             </div>

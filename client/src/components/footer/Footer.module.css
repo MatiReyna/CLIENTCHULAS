@@ -146,6 +146,22 @@
     color: #303035;
 }
 
+.footerCopyright {
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #797979;
+    padding: 15px 0;
+    color: #fffcf2;
+}
+
+.footerCopyright ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+
 @media screen and (mix-with: 715px) {
     .newslatter {
         flex-direction: column;
