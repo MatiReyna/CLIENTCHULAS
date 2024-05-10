@@ -19,7 +19,7 @@ const Home = () => {
                 <About />
                 <Title subTitle='GALLERY' title='Algunas muestras' />
                 <Carousel />
-                {/* <Contact /> */}
+                <Contact />
             </div>
         </div>
     )
