@@ -1,4 +1,5 @@
 import React from 'react';
+import { FireOutlined } from '@ant-design/icons';
 
 import style from './Carousel.module.css';  //? Importamos los estilos del componente.
 
@@ -7,25 +8,12 @@ const Carousel = () => {
     return (
         <div className={style.galleryContainer}>
             <div className={style.cardGallery}>
-                <figure>
-                    <img src='/about-mica.webp' />
-                </figure>
+                <img src='/img-one.webp' />
+                <img src='/img-two.webp' />
+                <img src='/img-three.webp' />
+                <img src='/img-four.webp' />
             </div>
-            <div className={style.cardGallery}>
-                <figure>
-                    <img src='/about-moro.webp' />
-                </figure>
-            </div>
-            <div className={style.cardGallery}>
-                <figure>
-                    <img src='/logo-pagina.webp' />
-                </figure>
-            </div>
-            <div className={style.cardGallery}>
-                <figure>
-                    <img src='/about-one.webp' />
-                </figure>
-            </div>
+            <button className={style.btnCarousel}>¡Quiero más! <FireOutlined className={style.iconCarousel} /></button>
         </div>
     )
 };

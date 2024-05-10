@@ -1,37 +1,37 @@
 .galleryContainer {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.cardGallery img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    border-radius: 10px;
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-}
-
-.cardGallery:not(:first-child) {
-    margin-left: 0;
-}
-
-.cardGallery:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    cursor: pointer;
-}
-
-.cardGallery:hover ~ .cardGallery {
-    transform: translateX(30px);
+    margin: 80px auto;
+    width: 90%;
+    text-align: center;
 }
 
 .cardGallery {
-    transition: 1s;
-    flex: 1;
-    max-width: 250px;
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.cardGallery img {
+    width: 23%;
     border-radius: 10px;
-    overflow: hidden;
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.btnCarousel {
+    background: #212121;
+    color: #fffcf2;;
+    padding: 14px 25px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.iconCarousel {
+    width: 20px;
+    margin-left: 10px;
 }
