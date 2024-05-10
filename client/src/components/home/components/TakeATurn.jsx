@@ -1,11 +1,11 @@
 import React from 'react';
-import { CalendarOutlined, CarryOutOutlined, ClockCircleOutlined, LikeOutlined } from '@ant-design/icons';  // Importamos los iconos necesarios.
+import { CalendarOutlined, ClockCircleOutlined, LikeOutlined } from '@ant-design/icons';  // Importamos los iconos necesarios.
 import { Avatar } from 'antd';
 
 import style from './TakeATurn.module.css';  //? Importamos los estilos del componente.
 import buscar from '../utils/buscar.webp';
-import seleccionar from '../utils/seleccionar.webp';
 import esperar from '../utils/esperar.webp';
+import seleccionar from '../utils/seleccionar.webp';
 
 const TakeATurn = () => {
 
@@ -16,21 +16,10 @@ const TakeATurn = () => {
                 <div className={style.caption}>
                     <Avatar
                         className={style.icon}
-                        size={140}
+                        size={100}
                         icon={ <CalendarOutlined /> }
                     />
                     <p>Busca el día y hora en el turnero</p>
-                </div>
-            </div>
-            <div className={style.seleccion}>
-                <img src={seleccionar} alt='seleccionar' />
-                <div className={style.caption}>
-                    <Avatar
-                        className={style.icon}
-                        size={140}
-                        icon={ <CarryOutOutlined /> }
-                    />
-                    <p>Selecciona el que más te convenga</p>
                 </div>
             </div>
             <div className={style.seleccion}>
@@ -38,18 +27,18 @@ const TakeATurn = () => {
                 <div className={style.caption}>
                     <Avatar
                         className={style.icon}
-                        size={140}
+                        size={100}
                         icon={ <ClockCircleOutlined /> }
                     />
                     <p>Aguarda que te confirmen el turno...</p>
                 </div>
             </div>
             <div className={style.seleccion}>
-                <img src='./about-moro.webp' alt='disfruta' />
+                <img src={seleccionar} alt='disfruta' />
                 <div className={style.caption}>
                     <Avatar
                         className={style.icon}
-                        size={140}
+                        size={100}
                         icon={ <LikeOutlined /> }
                     />
                     <p>¡Listo, disfruta de tus nuevas uñas!</p>
